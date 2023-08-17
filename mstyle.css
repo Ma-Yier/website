@@ -9,15 +9,14 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background: url(img/bg.jpg) no-repeat;
-	background-size: cover;
+	background: url(https://www.themoviedb.org/t/p/original/y78FlnxoM2o0Rwo70qNvjudcgDH.jpg) no-repeat;
 	padding-left: 20%;
 	padding-right: 20%;
 }
 
 .music {
     display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	width: 350px;
@@ -29,4 +28,19 @@ body {
 	backdrop-filter: blur(10px);
 	background: rgba(50,50,50,0.3);
 	border-radius: 15px;
+}
+
+.music .picture {
+    width: 50px;
+    height: 50px;;
+    background-color: #fff;
+	margin-top: -20px;
+    padding: 3px;
+    position: relative;
+    border-radius: 50%;
+}
+
+
+#musicName {
+    color: rgba(255, 255, 255, 0.3)
 }
