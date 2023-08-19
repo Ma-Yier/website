@@ -18,7 +18,7 @@ body {
 .music {
     display: flex;
 	flex-direction: row;
-	justify-content: start;
+	justify-content: center;
 	align-items: center;
 	width: 700px;
 	height: 100px;
@@ -36,11 +36,19 @@ body {
     height: 100px;;
     background-color: #fff;
 	margin-top: -60px;
+	margin-left: -200px;
     padding: 10px;
     position: relative;
     border-radius: 50%;
 	background: url(img/icon.jpg) no-repeat;
 	background-size: cover;
+}
+
+.music .control {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 
