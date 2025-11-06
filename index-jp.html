@@ -215,7 +215,7 @@
     /* Print friendly */
     @media print {
       body::before {
-      content: "For Browser Viewing Only For Browser Viewing Only For Browser Viewing Only";
+      content: "ブラウザでの閲覧専用 ブラウザでの閲覧専用 ブラウザでの閲覧専用";
       white-space: pre-wrap;
       position: fixed;
       top: 50%;
@@ -257,11 +257,11 @@
     <!-- LEFT COLUMN / SIDEBAR -->
     <aside class="sidebar" aria-label="Contact and skills">
       <div class="top-controls" style="margin-bottom:12px;">
-        <button class="btn" id="toggleThemeBtn" title="Toggle theme">Toggle Theme</button>
-        <button class="btn" onclick="window.print()" title="Print resume">Print</button>
+        <button class="btn" id="toggleThemeBtn" title="Toggle theme">切り替え</button>
+        <button class="btn" onclick="window.print()" title="Print resume">プリンタ</button>
         <button class="btn" onclick="location.href='index-cn.html'" title="Chinese">漢</button>
-        <button class="btn" onclick="location.href='index-jp.html'" title="Japanese">日</button>
         <button class="btn" onclick="location.href='index.html'" title="Japanese">EN</button>
+        <button class="btn" onclick="location.href='index-jp.html'" title="Japanese">日</button>
         <!-- <select id="langSelect" aria-label="Language">
           <option value="en">English</option>
           <option value="ja">日本語</option>
@@ -269,17 +269,17 @@
       </div>
 
       <div class="profile" aria-hidden="false">
-        <div class="avatar" aria-hidden="true">MYE</div>
+        <div class="avatar" aria-hidden="true">マー</div>
         <div>
-          <h1 id="name-heading">Ma Yier</h1>
-          <div class="title">PhD Student · Kyoto University</div>
+          <h1 id="name-heading">マー　イーアル</h1>
+          <div class="title">博士課程学生 · 京都大学</div>
         </div>
       </div>
 
       <div class="section">
-        <div class="label">Contact</div>
+        <div class="label">連絡方法</div>
         <ul class="contact-list" aria-label="Contact details">
-          <li>📍 Kyoto, Japan</li>
+          <li>📍 京都</li>
           <li>✉️ <a href="mayier@example.com">mayier@example.com</a></li>
           <li>🔗 <a href="https://ma-yier.github.io/website/" target="_blank" rel="noopener">https://ma-yier.github.io/website/</a></li>
           <li>💼 <a href="index_login.html" target="_blank" rel="noopener">https://ieeexplore.ieee.org/author</a></li>
@@ -290,7 +290,7 @@
       <div class="divider" role="separator" aria-hidden="true"></div>
 
       <div class="section">
-        <div class="label">Skills</div>
+        <div class="label">スキル</div>
         <ul class="skills-list" aria-label="Skills">
           <li>
             <div style="display:flex;justify-content:space-between;align-items:center;">
@@ -320,7 +320,7 @@
       <div class="divider" role="separator" aria-hidden="true"></div>
 
       <div class="section">
-        <div class="label">Tools</div>
+        <div class="label">ツール</div>
         <div style="display:flex;flex-wrap:wrap;gap:8px">
           <span class="chip">Git</span>
           <span class="chip">Docker</span>
@@ -331,84 +331,81 @@
       </div>
 
       <div style="height:20px"></div>
-      <div class="muted" style="font-size:13px">Available for remote or hybrid work · Languages: Chinese Mandarin (native), English (fluent), Japanese (conversational)</div>
+      <div class="muted" style="font-size:13px">リモート勤務またはハイブリッド勤務可・言語：中国語（ネイティブ）、英語（日常会話レベル）、日本語（日常会話レベル）</div>
     </aside>
 
     <!-- RIGHT COLUMN / MAIN -->
     <section class="main" aria-label="Resume content">
       <div class="section summary">
-        <div class="label">Summary</div>
+        <div class="label">まとめ</div>
         <p>
-          My research interests include constraint-based opimization and machine learning. 
-          I skill in mathematical modeling, analysis, and design of complex network. 
-          I enjoy solving real-world problems.
+          私の研究関心は制約付き最適化と機械学習です。複雑なネットワークの数学的モデリング、解析、設計に精通しています。現実世界の問題解決を楽しんでいます。
         </p>
       </div>
 
       <div class="section">
-        <div class="label">Education</div>
+        <div class="label">学歴</div>
 
         <article class="edu-item" aria-labelledby="edu-1">
           <div class="item-header">
             <div>
-              <div class="company" id="edu-1">Nankai University, Tianjin, China</div>
-              <div class="role">B.S.</div>
+              <div class="company" id="edu-1">南開大学 · 中国天津市🇨🇳</div>
+              <div class="role">大学卒業</div>
             </div>
             <div class="dates">2015 — 2019</div>
           </div>
-          <p class="muted">Relevant: Algorithms, Databases, Linear Algebra, Probability and Statistics, Bioinformatics.</p>
         </article>
 
         <article class="edu-item" aria-labelledby="edu-1">
           <div class="item-header">
             <div>
-              <div class="company" id="edu-1">Kyoto University, Kyoto, Japan</div>
-              <div class="role">M.E. Intelligent Science and Technology</div>
+              <div class="company" id="edu-1">京都大学 · 京都⛩️</div>
+              <div class="role">修士 知能情報学</div>
             </div>
             <div class="dates">2020 — 2022</div>
           </div>
-          <p class="muted">Relevant: Statistical Machine Learning, Pattern Recognition, Computer Vision, Natural Language Processing, Speech Processing, Computational Learning Theory, Theory of Computational Complexity.</p>
+          <p class="muted">関連分野：統計的機械学習、パターン認識、コンピュータビジョン、自然言語処理、音声処理、計算学習理論、計算複雑性理論。</p>
         </article>
 
         <article class="edu-item" aria-labelledby="edu-1">
           <div class="item-header">
             <div>
-              <div class="company" id="edu-1">Kyoto University, Kyoto, Japan</div>
-              <div class="role">Ph.D. Intelligent Science and Technology</div>
+              <div class="company" id="edu-1">京都大学 · 京都⛩️</div>
+              <div class="role">博士後期課程 知能情報学</div>
             </div>
-            <div class="dates">2022 — Present</div>
+            <div class="dates">2022 —　今まで</div>
           </div>
-          <p class="muted">Relevant: Constraint-based Optimization Algorithms.</p>
+          <p class="muted">関連：制約ベース最適化アルゴリズム。</p>
         </article>
       </div>
 
 
       <div class="section">
-        <div class="label">Awards</div>
+        <div class="label">受賞</div>
 
         <article class="experience-item" aria-labelledby="exp-1-title">
           <div class="item-header">
             <div>
-              <div class="company" id="exp-1-title">Time Person of the Year</div>
-              <div class="role">American news magazine and website Time</div>
+              <div class="company" id="exp-1-title">タイム誌「パーソン・オブ・ザ・イヤー」</div>
+              <div class="role">アメリカ合衆国のニュース雑誌およびウェブサイト『タイム』</div>
             </div>
             <div class="dates">2006</div>
           </div>
-          <ul class="bullets">
-            <li>Representing individual content creators on the World Wide Web.</li>
+            <ul class="bullets">
+              <li>ワールドワイドウェブ上の個人コンテンツ作成者を代表する。</li>
           </ul>
         </article>
 
         <article class="experience-item" aria-labelledby="exp-2-title">
           <div class="item-header">
             <div>
-              <div class="company" id="exp-2-title">Touching China Annual Person of the Year Special Award</div>
-              <div class="role">News Center of China Media Group (CMG)</div>
+              <div class="company" id="exp-2-title">「中国感動人物」年間特別賞</div>
+              <div class="role">中国中央広播電視総台ニュースセンター</div>
             </div>
             <div class="dates">2008</div>
           </div>
           <ul class="bullets">
-            <li>With resilience, courage, and wisdom, have delivered a satisfactory answer to China and the world.</li>
+            <li>不屈の精神、勇気、そして知恵をもって、中国と世界に対し満足のいく答えを示した。</li>
           </ul>
         </article>
 
@@ -417,25 +414,25 @@
           <div class="item-header">
             <div>
               <div class="company" id="exp-2-title">Champions of the Earth</div>
-              <div class="role">UN Environment Programme</div>
+              <div class="role">国連環境計画（UENP）</div>
             </div>
             <div class="dates">2019</div>
           </div>
           <ul class="bullets">
-            <li>The 2019 Champions of the Earth are part of a legacy of people whose effective action led to the environmental victories that have transformed our societies for the better.</li>
+            <li>国連最高環境賞 · 「地球のチャンピオン」は、効果的な行動によって環境保護の勝利をもたらし、私たちの社会をより良い方向に変革した人々の遺産の一部です。</li>
           </ul>
         </article>
 
         <article class="experience-item" aria-labelledby="exp-2-title">
           <div class="item-header">
             <div>
-              <div class="company" id="exp-2-title">IOC awards Olympic Cup</div>
-              <div class="role">International Olympic Committee (IOC) </div>
+              <div class="company" id="exp-2-title">オリンピック・カップ</div>
+              <div class="role">国際オリンピック委員会（IOC）</div>
             </div>
             <div class="dates">2022</div>
           </div>
           <ul class="bullets">
-            <li>With the warmth, the energy, the hospitality and the support for the success of the Olympic Winter Games Beijing 2022.</li>
+            <li>北京2022冬季オリンピック大会の成功に向けた温かさを支援をする。</li>
           </ul>
         </article>
       </div>
@@ -443,40 +440,39 @@
 
 
       <div class="section">
-        <div class="label">Experience</div>
+        <div class="label">経歴</div>
 
         <article class="experience-item" aria-labelledby="exp-1-title">
           <div class="item-header">
             <div>
-              <div class="company" id="exp-1-title">Hokkaido University, Sapporo, Japan</div>
-              <div class="role">Exchange Student</div>
+              <div class="company" id="exp-1-title">北海道大学 · 札幌🇯🇵</div>
+              <div class="role">交換留学生</div>
             </div>
             <div class="dates">Apr 2018 — Sep 2018</div>
           </div>
           <ul class="bullets">
-            <li>Worked on research in Northern Biosphere Research Center.</li>
-            <li>Attended Courses at Graduate School of Agriculture.</li>
+            <li>北方生物圏研究センター</li>
+            <li>大学院農学研究科</li>
           </ul>
         </article>
 
         <article class="experience-item" aria-labelledby="exp-2-title">
           <div class="item-header">
             <div>
-              <div class="company" id="exp-2-title">University of Hyogo, Kobe, Japan</div>
-              <div class="role">Visiting Student</div>
+              <div class="company" id="exp-2-title">兵庫県立大学 · 神戸🇯🇵</div>
+              <div class="role">訪問</div>
             </div>
             <div class="dates">Dec 2024 — Present</div>
           </div>
           <ul class="bullets">
-            <li>Research on BDD and SAT solver.</li>
-            <li>At Lab of Theoretical Computer Science.</li>
+            <li>理論計算機科学研究室 · 大学院情報学研究科</li>
           </ul>
         </article>
       </div>
 
 
       <div class="section">
-        <div class="label">Projects</div>
+        <div class="label">プロジェクト</div>
 
         <article class="project-item">
           <div class="item-header">
@@ -503,7 +499,7 @@
 
         <div class="section">
           <div class="label">Interests</div>
-          <p class="muted">Hiking🚶‍♂️, Photography📷, Retro Video Games🎮, Detective Film🎞.</p>
+          <p class="muted">ハイキング🚶‍♂️、写真📷、レトロゲーム🎮、探偵映画🎞。</p>
         </div>
       </section>
     </div>
