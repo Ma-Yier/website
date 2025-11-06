@@ -508,7 +508,7 @@
       </section>
     </div>
 
-
+<!--
   <script>
     // Simple theme toggle - toggles data-theme on <html>
     (function(){
@@ -527,5 +527,32 @@
       });
     }());
   </script>
+-->
+
+  <script>
+      (function() {
+        const btn = document.getElementById('toggleThemeBtn');
+        const html = document.documentElement;
+    
+        // 根据当前时间判断主题
+        const hour = new Date().getHours();
+        if (hour >= 18 || hour < 6) {
+          // 晚上 6 点到早上 6 点：深色模式
+          html.setAttribute('data-theme', 'dark');
+        } else {
+          // 白天：浅色模式
+          html.removeAttribute('data-theme');
+        }
+    
+        // 点击按钮切换主题
+        btn.addEventListener('click', () => {
+          if (html.getAttribute('data-theme') === 'dark') {
+            html.removeAttribute('data-theme');
+          } else {
+            html.setAttribute('data-theme', 'dark');
+          }
+        });
+      })();
+    </script>
 </body>
 </html>
